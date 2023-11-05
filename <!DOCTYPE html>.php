@@ -64,7 +64,8 @@
         <p>by Quino Al by Unsplash <a href="https://unsplash.com/photos/waves-of-body-of-water-splashing-on-sand-mBQIfKlvowM"> <h3>click here!</h3> </a> </p>
     </section>
     </body>
-    <footer>olivia harbourne made this</footer>
+    </html>
+
 <!--
 _|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
 ___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
@@ -87,4 +88,5 @@ ___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
 
                         THE WALL PINK FLOYD
 -->
-</html>
+
+
