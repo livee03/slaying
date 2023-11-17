@@ -1,0 +1,55 @@
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #c18ee6; /* Pastel blue */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #000000; /* Dark blue text color */
+  }
+  
+  /* Navigation styling */
+  nav {
+    background-color: #a3f2af; /* Light blue background */
+    padding: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000000; /* Dark blue text color */
+    margin: 0 15px;
+  }
+  
+  /* Main content styling */
+  main {
+    padding: 20px;
+  }
+  
+  /* Footer styling */
+  footer {
+    background-color: #457b9d; /* Darker pastel blue */
+    color: #d2a7ca; /* Lighter pastel blue text color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive design */
+  @media only screen and (max-width: 600px) {
+    nav a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
