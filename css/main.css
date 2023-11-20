@@ -1,16 +1,16 @@
+h1 {
+  background-color: #ff009d; /* Pink */
+  color: #ffffff; /* White text on pink background */
+  text-align: center;
+  padding: 20px;
+}
+
 body {
   background-color: #f7f7f7;
   color: #333; /* Default text color */
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-header {
-  background-color: #ff009d; /* Pink */
-  color: #ffffff; /* White text on pink background */
-  text-align: center;
-  padding: 20px;
 }
 
 section {
