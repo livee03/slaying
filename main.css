@@ -1,0 +1,39 @@
+body {
+    background-color: #f7f7f7;
+    color: #333; /* Default text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ff009d; /* Pink */
+    color: #ffffff; /* White text on pink background */
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #ff009d; /* Pink heading color */
+  }
+  
+  p {
+    color: #333; /* Default text color */
+  }
+  
+  a {
+    color: #ff009d; /* Pink link color */
+  }
+  
+  footer {
+    background-color: #ff009d; /* Pink footer background */
+    color: #ffffff; /* White text on pink background */
+    text-align: center;
+    padding: 10px;
+  }
+  
