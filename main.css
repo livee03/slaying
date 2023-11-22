@@ -1,38 +1,79 @@
 body {
     background-color: #f7f7f7;
-    color: #333; /* Default text color */
-    font-family: Arial, sans-serif;
+    color: #333; /* hey stephen */
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
     margin: 0;
     padding: 0;
   }
-  
+
+.highlight {
+  background-color: #eb8ce2; /* why did the chicken cross the road  */
+  color: #ffffff; /* to get to the other side */
+  padding: 10px;
+
+}
+.bio {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.bio h1 {
+  color: #333;
+}
+
+.bio p {
+  color: #000000;
+  line-height: 1.6;
+}
+
+.bio a {
+  color: #ff00c3;
+  text-decoration: blueviolet;
+}
+
+.bio a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border: 10px solid #ff009d; /* Set border width and color */
+  border-radius: 8px; /* Optional: Add rounded corners to the border */
+  display: block; /* Make sure the image is displayed as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
   header {
-    background-color: #ff009d; /* Pink */
-    color: #ffffff; /* White text on pink background */
+    background-color: #ff009d; /* i love pink */
+    color: #ffffff; /* my brother was telling me this was easy, he did baby code in middle school spencer, it is not */
     text-align: center;
-    padding: 20px;
+    padding: 30px;
   }
   
   section {
-    background-color: #ffffff; /* White background */
-    padding: 20px;
+    background-color: #ffffff; /* so many silly comments */
+    padding: 15px;
   }
   
   h2 {
-    color: #ff009d; /* Pink heading color */
+    color: #ff009d; /* can u tell i love pink? */
   }
   
-  p {
-    color: #333; /* Default text color */
-  }
+p {
+  color: #000000; /* also the text doesnt make sense */
+  font-size: 18px; 
+}
+
   
   a {
-    color: #ff009d; /* Pink link color */
+    color: #ff009d; /* and i know the pictures dont show up but i cant figure it out */
   }
   
   footer {
-    background-color: #ff009d; /* Pink footer background */
-    color: #ffffff; /* White text on pink background */
+    background-color: #ff009d; /* anyway */
+    color: #ffffff; /* i hope u enjoyed */
     text-align: center;
     padding: 10px;
   }
