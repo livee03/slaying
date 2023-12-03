@@ -1,7 +1,7 @@
 body {
     background-color: #f7f7f7;
     color: #333; /* hey stephen */
-    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-family: sofia, sans-serif;
     margin: 0;
     padding: 0;
   }
@@ -19,24 +19,6 @@ body {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.bio h1 {
-  color: #333;
-}
-
-.bio p {
-  color: #000000;
-  line-height: 1.6;
-}
-
-.bio a {
-  color: #ff00c3;
-  text-decoration: blueviolet;
-}
-
-.bio a:hover {
-  text-decoration: underline;
 }
 
 img {
