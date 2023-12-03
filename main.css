@@ -27,6 +27,11 @@ img {
   display: block; /* Make sure the image is displayed as a block element */
   margin: 0 auto; /* Center the image horizontally */
 }
+@media only screen and (min-width: 601px) {
+}
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens */
+}
   header {
     background-color: #ff009d; /* i love pink */
     color: #ffffff; /* my brother was telling me this was easy, he did baby code in middle school spencer, it is not */
