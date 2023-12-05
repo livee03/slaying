@@ -4,6 +4,7 @@ body {
     font-family: sofia, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
   }
 
 .highlight {
@@ -19,13 +20,28 @@ body {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+button {
+  background-color: #ffffff; 
+  color: rgb(255, 0, 162); 
+  padding: 0px 0px; 
+  font-size: 16px; 
+  font-family: sofia, sans-serif; 
+  border: none; 
+  cursor: pointer; 
+  border-radius: 5px; 
+
 }
 
+button:hover {
+  background-color: #ffffff; 
+}
 img {
-  border: 10px solid #ff009d; /* Set border width and color */
-  border-radius: 8px; /* Optional: Add rounded corners to the border */
-  display: block; /* Make sure the image is displayed as a block element */
-  margin: 0 auto; /* Center the image horizontally */
+  border: 10px solid #ff009d; 
+  border-radius: 8px; 
+  display: block; 
+  margin: 0 auto; 
 }
 @media only screen and (min-width: 601px) {
 }
@@ -46,6 +62,7 @@ img {
   
   h2 {
     color: #ff009d; /* can u tell i love pink? */
+    text-align: center;
   }
   
 p {

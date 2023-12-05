@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 </head>
 <body>
-
     <header>
         <h1>About Me</h1>
     </header>
@@ -19,18 +18,14 @@
             Hello! My name is Olivia. I am an aspiring graphic designer from Calgary. I love movies and enjoy doing my makeup. I am passionate about learning history and expanding my knowledge of current events.
         </p>
     </section>
-
     <section>
         <h2>Bio</h2>
         <div class="bio">
             <p>
-                Like I said, I love being kept up on current events and sharing ways to help. Here is a great Carrd with resources to help!
-                <a href="https://wearethechange.carrd.co/" target="_blank">Click here!</a>
-
-                <button id="spiceButton">Spice it up!</button>
+                Like I said, I love being kept up on current events and sharing ways to help. Here is a great <a href="https://wearethechange.carrd.co/" target="_blank"> <button id="spiceButton">Carrd</a> </button> with resources to help!
             </p>
             <p>
-                I have a kitten (he's one but still) named Leo, and a yellow Labrador Retriever named Cooper. I have a younger brother who plays baseball in Nanaimo, BC. I was born and raised in Calgary, and no, I am not used to the cold yet.
+                I have a kitten (he's one, but still) named Leo, and a yellow Labrador Retriever named Cooper. I have a younger brother who plays baseball in Nanaimo, BC. I was born and raised in Calgary, and no, I am not used to the cold yet.
             </p>
         </div>
     </section>
@@ -38,6 +33,65 @@
     <section>
         <h2>This is me!</h2>
         <img src="IMG_9693.jpeg" alt="selfie" width="231" height="308">
+       
+    <button id="hoverButton" onmouseover="changeColor()" onmouseout="resetColor()">purple? what are you doing here?</button>
+
+    <button onclick="incrementCounter()">it just keeps going...</button>
+    <p>Counter: <span id="counter">0</span></p>
+
+    <button onclick="checkNumber()">random numbers</button>
+    <p id="numberOutput"></p>
+
+    <button onclick="runForLoop()">froot loops but coding</button>
+    <p id="forLoopOutput"></p>
+
+    <button onclick="showAlert()">click here for a suprise!</button>
+
+    <script>
+        // Alert Button
+        function showAlert() {
+            alert('youre slaying!');
+        }
+
+        // Hover Button
+        function changeColor() {
+            document.getElementById('hoverButton').style.backgroundColor = '#b505f5';
+        }
+
+        function resetColor() {
+            document.getElementById('hoverButton').style.backgroundColor = '#ffffff';
+        }
+
+        // Incrementing Button
+        let counter = 0;
+
+        function incrementCounter() {
+            counter++;
+            document.getElementById('counter').innerText = counter;
+        }
+
+        // If-Else Button
+        function checkNumber() {
+            const randomNumber = Math.floor(Math.random() * 10) + 1;
+
+            if (randomNumber > 5) {
+                document.getElementById('numberOutput').innerText = `Random number ${randomNumber} is greater than 5.`;
+            } else {
+                document.getElementById('numberOutput').innerText = `Random number ${randomNumber} is 5 or less.`;
+            }
+        }
+
+        // For Loop Button
+        function runForLoop() {
+            let output = '';
+
+            for (let i = 1; i <= 5; i++) {
+                output += `Iteration ${i}<br>`;
+            }
+
+            document.getElementById('forLoopOutput').innerHTML = output;
+        }
+    </script>
     </section>
 
     <section>
@@ -69,10 +123,26 @@
         <p>by Quino Al by Unsplash <a href="https://unsplash.com/photos/waves-of-body-of-water-splashing-on-sand-mBQIfKlvowM">Click here!</a></p>
     </section>
 
-    <footer>Olivia Harbourne made this</footer>
+    <footer>Olivia Harbourne made this</footer> 
+    <footer id="dateFooter"></footer>
+    <script>
+        // Date Footer
+        function updateDateFooter() {
+            const now = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+            const formattedDate = now.toLocaleDateString('en-US', options);
 
+            document.getElementById('dateFooter').innerText = `© ${now.getFullYear()} | Current Date: ${formattedDate}`;
+        }
+
+        // Update the date on page load
+        updateDateFooter();
+
+        // Update the date every second (1000 milliseconds)
+        setInterval(updateDateFooter, 1000);
+    </script>
+    <script async src="directory/file.js"></script>
 </body>
-</html>
 <!--
 _|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|
 ___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|___|__
